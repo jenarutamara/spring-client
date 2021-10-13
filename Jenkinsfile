@@ -4,8 +4,8 @@ pipeline {
     maven 'maven'
   }
   environment {
-    LOGIN_URL = 'https://c115-e.us-south.containers.cloud.ibm.com'
-    LOGIN_PORT = '32370'
+    LOGIN_URL = 'https://api.okade.mylabzolution.com'
+    LOGIN_PORT = '6443'
     PROJECT = 'springclient-ns'
   }  
   stages {
